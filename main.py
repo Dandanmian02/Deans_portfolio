@@ -102,4 +102,6 @@ if st.button('click me to check'):
         st.warning('The number is higher than the secret_number.')
 ''')
 st.success('Challenge: Can you add a feature to count the number of guesses?')    
-    
+
+if st.button('click'):
+    st.text('this is a button')
