@@ -3,6 +3,7 @@ import streamlit as st
 with st.sidebar:
     st.write('practice')
 
+st.text('This website is for noobs the know how to use streamlit')
 st.title('MY lesson plan for Intro to Streamlit Day :blue[1] :new_moon_with_face: ')
 st.subheader('_A_ :green[Lesson plan] for beginner python coders.:thinking_face: ')
 st.header(':blue[1] . Introduction:male-technologist:')
@@ -100,7 +101,5 @@ if st.button('click me to check'):
     elif user_guess > secret_number:
         st.warning('The number is higher than the secret_number.')
 ''')
-st.success('Challenge: Can you add a feature to count the number of guesses?')
-
-    
+st.success('Challenge: Can you add a feature to count the number of guesses?')    
     
