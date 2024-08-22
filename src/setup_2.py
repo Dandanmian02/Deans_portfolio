@@ -1,4 +1,6 @@
 # setup_2.py
+import streamlit as st
+
 def setup():   
     st.header(':blue[2] . Setup:man-boy:')
     st.write('To install Streamlit, run this command in your terminal or command prompt: ')
