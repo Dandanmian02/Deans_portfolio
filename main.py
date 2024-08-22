@@ -1,7 +1,7 @@
 import streamlit as st
 
 from src.introduction_1 import introduction
-from src.setup_2 import Setup
+from src.setup_2 import setup
 
 # Basic streamlit elements
 def basic_streamlit_elements():
