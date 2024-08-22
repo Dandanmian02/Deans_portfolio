@@ -2,7 +2,7 @@ import streamlit as st
 
 from src.introduction_1 import introduction
 from src.setup_2 import setup
-from src.basic_streamlit_elements_3 import basic_stremlit_elements
+from src.basic_streamlit_elements_3 import basic_streamlit_elements
 
 # Interactive app
 def interactive_app():
