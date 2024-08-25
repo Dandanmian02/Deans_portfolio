@@ -5,16 +5,7 @@ from src.introduction_1 import introduction
 from src.setup_2 import setup
 from src.basic_streamlit_elements_3 import basic_streamlit_elements
 from src.interactive_app_4 import interactive_app
-
-
-# Running app
-def running_app():
-    st.header(':blue[5]. Running The App')
-    st.write('To run your Streamlit app:')
-    st.code('cd /Users/a20160102024/Desktop/streamlit_web')
-    st.write('Change the directory to the correct file path')
-    st.code('streamlit run Intro_to_streamlit_day_1.py')
-    st.write('Make sure you are in the correct folder or directory on the terminal.')
+from src.running_app_5 import running_app
 
 # Hands on new activity
 def hands_on_new_activity():
